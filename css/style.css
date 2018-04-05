@@ -1,0 +1,23 @@
+/* FONTS
+ * font-family: 'Alfa Slab One', cursive;
+font-family: 'Gentium Book Basic', serif;
+ */
+
+/* HEADING */
+.icon,
+.header,
+.extra-header {
+  border-bottom: 4px solid black;
+}
+
+.title {
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.sub-title {
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.copyright {
+  font-family: 'Gentium Book Basic', serif;
+}
