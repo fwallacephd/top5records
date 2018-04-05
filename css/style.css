@@ -26,3 +26,6 @@ font-family: 'Gentium Book Basic', serif;
 .album {
   font-family: 'Gentium Book Basic', serif;
 }
+.album-image {
+  width: 95%;
+}
