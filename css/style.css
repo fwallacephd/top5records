@@ -4,10 +4,8 @@ font-family: 'Gentium Book Basic', serif;
  */
 
 /* HEADING */
-.icon,
-.header,
-.extra-header {
-  border-bottom: 4px solid black;
+.heading {
+  border-bottom: 5px solid black;
 }
 
 .title {
@@ -19,5 +17,12 @@ font-family: 'Gentium Book Basic', serif;
 }
 
 .copyright {
+  font-family: 'Gentium Book Basic', serif;
+}
+
+/*First Top 5 List */
+.artist,
+.song,
+.album {
   font-family: 'Gentium Book Basic', serif;
 }
