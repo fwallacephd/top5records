@@ -25,6 +25,10 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
+   <!--AnimateCSS-->
+   <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css">
 
@@ -40,7 +44,7 @@
   <div class="row">
     <div class="icon align-middle col-md-2">
       <br>
-      <img class="img-fluid center-block align-middle" src="images/recordIcon.png" alt="record icon">
+      <img class="img-fluid center-block" src="images/recordIcon.png" alt="record icon">
     </div>
     <div class="header col-md-6 text-left">
       <br>
@@ -64,7 +68,7 @@
   </div>
   <div class="row center-block">
      <div class="col-sm-4">
-      <img class="album-image img-fluid" src="images/stroke9Album.png" alt="Stroke 9 Album">
+      <img class="album-image animated flipinX img-fluid" src="images/stroke9Album.png" alt="Stroke 9 Album">
       <audio controls>
         <source src="audio/NotNothin.m4a" type="audio/mp3">
       </audio>
@@ -74,7 +78,7 @@
       <h6 class="album"><span class="title">Album:</span> Nasty Little Thoughts</h6>
      </div>
       <div class="col-sm-4">
-      <img class="album-image img-fluid" src="images/eve6Album.png" alt="Eve 6 Album">
+      <img class="album-image animated flipinX img-fluid" src="images/eve6Album.png" alt="Eve 6 Album">
       <audio controls>
         <source src="audio/amphetamines.m4a" type="audio/mp3">
       </audio>
@@ -84,7 +88,7 @@
       <h6 class="album"><span class="title">Album:</span> Horrorscope</h6>
       </div>
       <div class="col-sm-4">
-      <img class="album-image img-fluid" src="images/refreshmentsAlbum.png" alt="The Refreshments Album">
+      <img class="album-image animated flipinX img-fluid" src="images/refreshmentsAlbum.png" alt="The Refreshments Album">
       <audio controls>
         <source src="audio/blueCollarSuicide.m4a" type="audio/mp3">
       </audio>
@@ -97,7 +101,7 @@
       <div class="col-sm-2"></div>
       <div class="col-sm-4">
       <br>
-      <img class="album-image img-fluid" src="images/letterstocleoAlbum.png" alt="Letters to Cleo Album">
+      <img class="album-image animated flipinX img-fluid" src="images/letterstocleoAlbum.png" alt="Letters to Cleo Album">
       <audio controls>
         <source src="audio/peteBeat.m4a" type="audio/mp3">
       </audio>
@@ -108,7 +112,7 @@
       </div>
       <div class="col-sm-4">
       <br>
-      <img class="album-image img-fluid" src="images/emmetswimming.png" alt="Emmet Swimming Album">
+      <img class="album-image animated flipinX img-fluid" src="images/emmetswimming.png" alt="Emmet Swimming Album">
       <audio controls>
         <source src="audio/arlington.m4a" type="audio/mp3">
       </audio>
@@ -134,6 +138,15 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".album-image").addClass("animate flipInX");
+      });
+
+
+    </script>
+<!--End jQuery-->
 
 </body>
 

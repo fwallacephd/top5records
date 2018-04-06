@@ -30,7 +30,11 @@ font-family: 'Gentium Book Basic', serif;
   width: 85%;
 }
 
-
+.album-image.animated {
+    animation-delay: .5s;
+    animation-duration: 2.5s;
+    animation-iteration-count: 2;
+}
 
 /* FOOTER */
 .footer {
